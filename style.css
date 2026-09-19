@@ -602,15 +602,15 @@ body {
     ======================================================== */
 
     .box-8 .boxdata > div:not(.no-data) {
-        width: auto;
+        width: auto !important;
 
-        max-width: none;
+        max-width: none !important;
 
-        flex: 0 1 auto;
+        flex: 0 1 auto !important;
 
-        white-space: nowrap;
+        white-space: nowrap !important;
 
-        overflow: visible;
+        overflow: visible !important;
 
         line-height: 1.1;
     }
